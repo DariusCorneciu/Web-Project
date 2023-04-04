@@ -1,0 +1,208 @@
+
+/* Pagina de start+ meniul de la restul paginilor*/
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+.darkmode {
+    background-color: black;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+
+    background-color: #282a35;
+
+}
+.meniustart{
+    width:20px;
+    height:20px;
+    filter: grayscale(100%);
+    margin-bottom: -5px;
+
+}
+.currentpage{
+    font-family: Poppins;
+    background-color: #a49b5e;
+    padding: 7px 14px;
+    color: #e2e2e1;
+    border:none;
+    border-radius: 15px;
+}
+nav > button.other{
+    font-family: Poppins;
+    background-color: #282a35;
+    padding: 7px 14px;
+     color: #e2e2e1;
+    border:none;
+    border-radius: 15px;
+
+}
+nav> button.other:hover {
+    font-family: Poppins;
+    color: #e2e2e1;
+    background-color: #131417;
+    border:none;
+    border-radius: 15px;
+}
+
+nav> button.stanga{
+    font-family: Poppins;
+    float: right;
+    background-color: #282a35;
+    padding: 7px 14px;
+    color: #e2e2e1;
+    border:none;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+nav> button.stanga:hover{
+    font-family: Poppins;
+    color: #e2e2e1;
+
+    background-color: #131417;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+/*Meniu Dropdown */
+.dropdown {
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+div.dropdown > button.stanga{
+    font-family: Poppins;
+    background-color: #282a35;
+    padding: 7px 14px;
+    color: #e2e2e1;
+    border:none;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;border:none;
+    border-radius: 15px;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    border-radius: 15px;
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    font-family: Poppins;
+    font-size: 70%;
+    color: #e2e2e1;
+    border:none;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+/*Sctiuni */
+section {
+    font-family: Poppins;
+    display: flex;
+    font-size:100%;
+    flex-direction: column;
+    align-items: center;
+    min-height: 700px;
+    padding-top: 100px;
+    background: #6600ff;
+    color: #e5e3e3;
+}
+
+
+
+@media screen and (max-width: 1540px ){
+    section{
+        font-size: 80%;
+    }
+}
+
+.culoare{
+    background-color: #001220;
+    color: #e3e3e3;
+}
+.section3{
+    background-color: #00CCCC ;
+    color: #131417;
+}
+.section4{
+    background-color: #FFFFFF ;
+    color: #131417;
+}
+section>h1>img{
+    width: 40px;
+    height: 45px;
+    margin-bottom: -12px;
+}
+.umbra{
+    text-shadow: #6600ff 2px 2px;
+
+}
+
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1 {
+    background-image: url("layer1.svg");
+}
+
+
+.spacer2{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer2 {
+    background-image: url("layer2.svg");
+}
+
+
+.spacer3{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer3 {
+    background-image: url("layer3.svg");
+}
